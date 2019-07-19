@@ -109,7 +109,7 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 60vw;
 }
 
 #make-donate-btn {
@@ -255,7 +255,9 @@ main {
     /* height: auto; */
   }
   .banner-image {
-    width: 100%;
+    width: 100vw;
+    height: 20vh;
+    /* height: 20%; */
     /* height: %; */
   }
   #banner-text h4 {
@@ -266,14 +268,14 @@ main {
     /* width: 648px; */
     /* height: 39px; */
     /* font-family: Roboto; */
-    width: 70%;
+    width: 80%;
     /* font-size: 5vw;
     width: 100%;
     left: 0%;
     top: 0%; */
     /* font-size: 5vw; */
     /* top: 0%; */
-    left: 20%;
+    left: 8%;
     top: 0%;
     /* font-weight: bold; */
     /* font-style: normal; */
@@ -296,9 +298,9 @@ main {
     height: 5vw; */
     /* object-fit: contain;
     position: absolute;*/
-    top: 63%;
-    left: 50%;
-    width: 20%;
+    top: 40%;
+    left: 32%;
+    width: 34%;
   }
 
   #make-donate-btn-container {
