@@ -109,7 +109,8 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60vw;
+  width: 58vw;
+  /* padding-right: 35px; */
 }
 
 #make-donate-btn {
@@ -222,23 +223,38 @@ main {
 }
 
 #category-list .category-image {
-  max-width: 198px;
-  max-height: 240px;
+  /* width: 198vw; */
+  width: 10vw;
+  height: auto;
   margin-right: 30px;
+  /* flex-shrink: 1; */
+
   /* height: 300px; */
+  /* width: 60%; */
+  /* height: 50%; */
+  /* margin-right: 0; */
+  /* height: 10%; */
+}
+
+#category-list:last-child {
+  margin-right: -30px;
 }
 
 /* Use a media query to add a breakpoint at 500px: */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   #category-list .category-image {
     /* width: 50%; */
     /* The width is 100%, when the viewport is 800px or smaller */
     /* margin-bottom: 40px; */
+    width: 40vw;
   }
   #category-list {
     /* left: 50%; */
     /* align-content: center;
     justify-content: center; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
   }
   #center-text {
     /* position: relative; */
@@ -335,6 +351,7 @@ main {
 #category-list {
   display: flex;
   flex-wrap: wrap;
+  /* align-items: flex-start; */
   position: relative;
   /* top: 150px; */
   /* right: 50px; */
@@ -411,3 +428,7 @@ main {
   bottom: 260px;
   left: 36px;
 }
+/* 
+#16-shelf {
+  margin-right: 0;
+} */
