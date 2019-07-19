@@ -255,7 +255,7 @@ main {
     /* height: auto; */
   }
   .banner-image {
-    width: 100vw;
+    width: 110vw;
     height: 20vh;
     /* height: 20%; */
     /* height: %; */
@@ -299,7 +299,7 @@ main {
     /* object-fit: contain;
     position: absolute;*/
     top: 40%;
-    left: 32%;
+    left: 36.8%;
     width: 34%;
   }
 
